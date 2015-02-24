@@ -1,0 +1,358 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Modern Henchman Template</title>
+<style type="text/css" media="screen">
+body {
+	background-color: #CCCCCC;
+	background-image: url(images/bg.png);
+	background-position: top center;
+	background-repeat: repeat;
+	margin: 0;
+	padding: 0;
+}
+a img {
+	border: none;
+}
+hr {
+	color: #CCCCCC;
+	background-color: #CCCCCC;
+	height: 5px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+td.dotsVert {
+	border-right: #999999 dotted 1px;
+}
+td.dotsHoriz {
+	border-bottom: #999999 dotted 1px;
+}
+td.blackbar {
+	background-color: #000000;
+	padding: 9px 15px 9px 15px;
+}
+
+td.left {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	background-color: #000000;
+}
+td.right {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	background-color: #000000;
+}
+td.left p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	text-align: left;
+	color: #CCCCCC;
+	margin: 0;
+	padding: 0;
+}
+td.left p a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #CCCCCC;
+}
+td.right p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	text-align: right;
+	color: #CCCCCC;
+	margin: 0;
+	padding: 0;
+}
+td.right p a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #CCCCCC;
+}
+td.logo {
+	padding: 18px 0 0 11px;
+}
+td.logo h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 45px;
+	font-weight: normal;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+}
+td.issue {
+	padding: 15px 15px 0 0px;
+	text-align: right;
+}
+td.issue p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 16px;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+}
+td.issue p a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+}
+td.mainbar h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #000000;
+	margin: 15px 0 15px 0;
+	padding: 0;
+}
+td.mainbar h2 a {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+td.mainbar h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+	margin: 15px 0 15px 0;
+	padding: 0;
+}
+td.mainbar h3 a {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+td.mainbar p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	margin: 15px 0 15px 0;
+	padding: 0;
+}
+td.mainbar p a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+}
+td.mainbar p.more {
+	margin: 0 0 15px 0;
+	padding: 0;
+	font-weight: bold;
+	color: #F00;
+}
+td.mainbar p.more a {
+	margin: 0 0 15px 0;
+	padding: 0;
+	font-weight: bold;
+	color: #CC0033;
+}
+td.sidebar h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+	margin: 15px 0 15px 0;
+	padding: 0;
+}
+td.sidebar h3 a {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+td.sidebar p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	margin: 15px 0 15px 0;
+	padding: 0;
+}
+td.sidebar p a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+}
+td.sidebar p.more {
+	margin: 0 0 15px 0;
+	padding: 0;
+	font-weight: bold;
+	color: #006666;
+}
+td.sidebar p.more a {
+	margin: 0 0 15px 0;
+	padding: 0;
+	font-weight: bold;
+	color: #CC0033;
+}
+td.footer {
+	padding: 9px 15px 5px 15px;
+	background-color: #000000;
+	height: 30px;
+}
+td.footer p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #CCCCCC;
+	margin: 0;
+	padding: 0;
+}
+</style>
+</head>
+<body>
+<table width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="580" align="center" valign="top"><table width="580" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td class="blackbar"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+            <tr>
+              <td align="left" valign="middle" class="left"><p>
+You are receiving this email as a subscriber to Modern Henchman magazine, or because you <a href="http:www.modernhenchman.com">signed up online</a></p></td>
+              </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td height="115" align="left" valign="top"><table width="580" border="0" cellspacing="0" cellpadding="0">
+
+              <tr>
+                <td width="290" align="left" valign="top" class="logo"><h1>Modern</h1>
+                  <h1><strong>Henchman</strong></h1></td>
+                <td width="290" align="right" valign="top" class="issue"><p><strong>In this issue:</strong></p>
+                  <p><a href="#article1">Don't let him get away again!</a></p>
+                  <p><a href="#article2">Henchman to supervillain?</a></p>
+
+                  <p><a href="#article3">Hot Hats for Henchman</a></p>
+                  <p><a href="#article4">Lair maintenance for beginners</a></p></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td class="blackbar"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+
+              <td align="left" valign="middle" class="left"><p><$currentmonthname$>
+                Newsletter</p></td>
+              <td class="right" align="right" valign="middle"><p><forwardtoafriend style="color=#FFFFFF;">Send to a henchmate</forwardtoafriend> |
+                <unsubscribe style="color=#FFFFFF;">Unsubscribe</unsubscribe>
+                | <webversion style="color=#FFFFFF;">View in a browser</webversion></p></td>
+            </tr>
+          </table></td>
+
+        </tr>
+        <tr bgcolor="#FFFFFF">
+          <td align="center" class="dotsHoriz"><table cellspacing="0" cellpadding="0">
+              <tr align="left" rowspan="3" valign="top">
+                <td width="15" align="left" valign="top" bgcolor="#e6d9d2"><p>&nbsp;</p></td>
+                <td width="330" align="left" valign="top" bgcolor="#e6d9d2" class="mainbar"><p><a name="article1" href="#"><img src="images/000008705841.jpg" alt="Guns for hire" width="330" height="165" /></a></p>
+                  <h2><a href="#">Don't let him get away again!</a></h2>
+                  <p>We uncover the 10 most common tricks superspies use to escape even the most fearsome of death traps. You'll never let the boss down again! </p>
+
+                  <p class="more"><a href="#">Read the Top 10</a></p></td>
+                <td width="15" align="left" valign="top" bgcolor="#e6d9d2" class="dotsVert"><p>&nbsp;</p></td>
+                <td width="15" bgcolor="#FFFFFF"><p>&nbsp;</p></td>
+                <td width="190" align="left" valign="top" bgcolor="#FFFFFF" class="sidebar"><p><a href="#"><img src="images/000002151847.jpg" alt="Photo of a stylish man in a purple suit smoking a cigar" width="190" height="165"></a></p>
+                  <h3><a href="#">Henchman to supervillain?</a></h3>
+                  <p>Take your henching career to the next level with our easy step guide to a brand new you.</p>
+                  <p class="more"><a href="#">Can you make it?</a></p></td>
+
+                <td width="15" bgcolor="#FFFFFF"><p>&nbsp;</p></td>
+              </tr>
+          </table></td>
+        </tr>
+        <tr bgcolor="#FFFFFF">
+          <td align="center" class="dotsHoriz"><table cellspacing="0" cellpadding="0">
+              <tr align="left" rowspan="3" valign="top">
+                <td width="15" align="left" valign="top" bgcolor="#FFFFFF"><p>&nbsp;</p></td>
+                <td width="330" align="left" valign="top" bgcolor="#FFFFFF" class="mainbar"><p><a name="article2" href="#"><img src="images/000007532236.jpg" alt="So the tall hitman says to the short hitman..." width="330" height="165" /></a></p>
+
+                  <h3><a href="#">Hot Hats for Henchman</a></h3>
+                  <p>Stand out from the crowd with this years selection of henchman headwear that's both attractive and functional. Available in a range of fashion colours, and perfect for the balding baddy.</p>
+<p>Beware, not every head can handle a hat, so take our hat quiz before you buy.</p>
+                  <p class="more"><a href="#">Meet the milliner</a></p></td>
+                <td width="15" align="left" valign="top" bgcolor="#FFFFFF" class="dotsVert"><p>&nbsp;</p></td>
+                <td width="15" bgcolor="#FFFFFF"><p>&nbsp;</p></td>
+                <td width="190" align="left" valign="top" bgcolor="#FFFFFF" class="sidebar"><p><a href="#"><img src="images/000000222930.jpg" alt="How to aim your gun like a real man would" width="190" height="165"></a></p>
+
+                  <h3><a href="#">Never outshoot the boss!</a></h3>
+                  <p>Henchman Ettiquette Expert Aunty Blake answers your tricky questions about showing up the boss in a fire fight.</p>
+                <p class="more"><a href="#">Read more</a></p></td>
+                <td width="15" bgcolor="#FFFFFF"><p>&nbsp;</p></td>
+              </tr>
+            </table></td>
+        </tr>
+
+        <tr bgcolor="#FFFFFF">
+          <td align="center" bgcolor="#e6d9d2" class="dotsHoriz"><table width="550" cellspacing="0" cellpadding="0">
+              <tr align="left" rowspan="3" valign="top">
+                <td colspan="4" align="left" valign="top" bgcolor="#e6d9d2" class="mainbar"><p><a name="article3" href="#"><img src="images/secret-diary.png" alt="Curious fashion for the voracious gentleman" width="550" height="130" /></a></p>
+                  	  <h3><a href="#">Diary of a Henchman</a></h3>
+	                  <p>Finally, the explosive anonymous revelations of a henchman who has worked with some of history's greatest villains. You won't believe what goes on when the giant death ray is turned off.</p>
+	<p>We've got advance copies for every new subscriber to the print version of Modern Henchman, so don't delay <a href="#" style="font-weight:bold;">subscribe today</a>.</td>
+
+              </tr>
+            </table></td>
+        </tr>
+        <tr bgcolor="#FFFFFF">
+          <td align="center" class="dotsHoriz"><table cellspacing="0" cellpadding="0">
+            <tr align="left" rowspan="3" valign="top">
+              <td width="15" align="left" valign="top" bgcolor="#FFFFFF"><p>&nbsp;</p></td>
+              <td width="330" align="left" valign="top" bgcolor="#FFFFFF" class="mainbar"><p><a name="article4" href="#"><img src="images/000010679425.jpg" alt="Most probably the most evil looking lair you will see" width="330" height="165" /></a></p>
+                <h3><a href="#">Lair maintenance for beginners</a></h3>
+
+                <p>The boss has captured his arch enemy for the third time, but the laser mounts keep slipping off the sharks and the aquarium guy can't come until Saturday! Don't panic, just follow our simple illustrated guides and you'll be indispensable.</p>
+                <p class="more"><a href="#">Read more</a></p></td>
+              <td width="15" align="left" valign="top" bgcolor="#FFFFFF" class="dotsVert"><p>&nbsp;</p></td>
+              <td width="15" bgcolor="#FFFFFF"><p>&nbsp;</p></td>
+              <td width="190" align="left" valign="top" bgcolor="#FFFFFF" class="sidebar"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td height="180" align="left" valign="top" bgcolor="#FFFFFF" class="dotsHoriz"><h3><img src="images/forward.gif" alt="" width="40" height="38" align="left">Send to<br>
+
+a henchmate</h3>
+                    <p>Do your henching colleagues need some tips? Why not <a style="color=#000000;" href="#">send this email to them.</a></p></td>
+                </tr>
+                <tr>
+                  <td align="left" valign="top" bgcolor="#FFFFFF"><h3><img src="images/unsubscribe.gif" alt="" width="40" height="40" align="left">Is the thrill gone?</unsubscribe></h3>
+                    <p>If you're not interested in being the best Henchman you can be, <a style="color=#000000;" href="#">please unsubscribe.</a></p></td>
+
+                </tr>
+              </table></td>
+              <td width="15" bgcolor="#FFFFFF"><p>&nbsp;</p></td>
+            </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td class="blackbar"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+
+              <td align="left" valign="middle" class="left"><p>
+                The Modern Henchman logo and design are trademarks of <a href="#">Hench International Pty Ltd</a></p></td>
+              </tr>
+          </table></td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+
+</body>
+</html>
